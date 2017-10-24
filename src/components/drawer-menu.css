@@ -1,0 +1,10 @@
+.header-bar {
+  background: #ff9900;
+  border-bottom: 1px solid #b36b00;
+  color: #fff;
+  margin-bottom: 30px; }
+  .header-bar a {
+    color: #fff;
+    text-decoration: none; }
+  .header-bar .fa-bars {
+    color: #ffffff !important; }

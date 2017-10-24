@@ -1,0 +1,16 @@
+footer {
+  background: #424242;
+  color: #ffffff;
+  padding: 15px 0px; }
+  footer a {
+    color: #ffffff; }
+    footer a:hover {
+      color: darkgray; }
+  footer ul {
+    margin: 0px;
+    list-style: none;
+    display: flex; }
+    footer ul li {
+      flex: 1 1 auto;
+      text-align: center;
+      font-size: 1.2rem; }

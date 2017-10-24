@@ -1,0 +1,48 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import './node_modules/bootstrap-sass/assets/stylesheets/bootstrap-mincer';
+// Core variables and mixins
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+
+// Reset and dependencies
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+
+// Core CSS
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+//Palette: http://www.colourlovers.com/palette/148712/Gamebookers
+html{
+  font-size: 18px;
+}
+body{
+  background: #E9E9E9;
+  color:#424242;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rokkitt', serif;
+}
+p, li , figcaption{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-size:1rem;
+  line-height: 1.7rem;
+  margin-bottom: 2rem;
+}
+hr{
+  border-top:4px solid #FF9900;
+  border-bottom:1px solid #BCBCBC;
+}

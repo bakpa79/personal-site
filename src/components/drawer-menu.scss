@@ -1,0 +1,10 @@
+.header-bar {
+  background: rgba(255,153,0,1.0);
+  border-bottom: 1px solid darken(rgba(255,153,0, 1.0), 15% );
+  color:#fff;
+  margin-bottom: 30px;
+  a{color:#fff;text-decoration:none;}
+  .fa-bars{
+    color:#ffffff!important
+  }
+}
